@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Entering Values</title>
+    <link rel="stylesheet" href="SignUp.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <script src="values.js"></script>
+  </head>
+  <body>
+    <h1 class="heading">Parkinson's Disease Prediction Analysis</h1>
+    <div class="signup-box">
+      <form>
+        <label>PPE(Pitch Period Entropy )</label>
+        <input type="number" id="PPE" min="-1" max="1" placeholder="PPE" />
+        <label>DFA(Detrended Fluctuation Analysis )</label>
+        <input type="number" id="DFA" min="-1" max="1" placeholder="DFA" />
+        <label>RPDE(Recurrent Period Density Entropy)</label>
+        <input type="number" id="RPDE" min="-1" max="1" placeholder="RPDE" />
+        <label>NumPulses</label>
+        <input type="number" id="NumPulses" min="-1" max="1" placeholder="NumPulses" />
+        <label>NumPeriodPulses</label>
+        <input type="number" id="NumPeriodPulses" min="-1" max="1" placeholder="NumPeriodPulses" />
+        <button onclick="validateInput();return false;">Predict</button>
+        <p id="result"></p>
+      </form>
+    </div>
+  </body>
+</html>

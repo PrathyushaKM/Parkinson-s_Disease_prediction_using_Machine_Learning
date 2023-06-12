@@ -1,0 +1,125 @@
+body {
+    background-image: url(brain_1_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+  }
+
+.heading{
+    color: white;
+    font-size: 45px;
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.signup-box {
+    display: flexbox;
+    width: 900px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+}
+  
+.login-box {
+    display: flexbox;
+    width: 900px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    color: white;
+    margin-top: 50px;
+}
+  
+.heading1 {
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+.heading2{
+    margin-left: 140px;
+    padding-top: 10px;
+}
+  
+h4 {
+    display: flex;
+    padding-top: 15px;
+    margin-left: 70px;
+}
+  
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+  
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+  
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+  
+input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+	border-radius: 7px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+  
+.para-2 {
+    color: white;
+    font-size: 15px;
+    margin-top: -90px;
+    margin-left: -540px;
+}
+  
+.para-2 a {
+    color: #49c1a2;
+}
+  
+.para-3 {
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: -540px;
+}
+  
+.para-3 a {
+    color: #49c1a2;
+}
+
+.button1{
+  margin-left: 340px;
+}
+
+  
+  
